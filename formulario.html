@@ -3,31 +3,37 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>coelhinho, se eu fosse como tu...</title>
+	<link ref="stylesheet" href="formulariostyle.css">
+	<title>irra</title>
 </head>
 <body>
+	<header>
+		<h1>seja bem-vindo(a)!</h1>
+	</header>
+<br>
 	<form action="https://formsubmit.co/471972mmmm39482910@gmail.com" method="POST">
 		<input type="hidden" name="_captcha" value="false">
 		<input type="hidden" name="_next" value="https://mgabim.github.io/progweb/fvaleu.html">
-		<label for="nome">escreva seu nome:</label>
+		<fieldset>
+			<label for="nome">escreva seu nome:</label>
 <br>
-		<input type="text" name="nome" placeholder="nome" required>
+			<input type="text" name="nome" placeholder="nome">
 <br><br>
-		<label for="apelido">o apelido mais engraçado que já te deram:</label>
+			<label for="apelido">o apelido mais engraçado que já te deram:</label>
 <br>
-		<input type="text" name="apelido" placeholder="apelido">
+			<input type="text" name="apelido" placeholder="apelido">
 <br><br>
-		<label for="email">e seu email (por questões totalmente legais e seguras):</label>
+			<label for="email">e seu email (por questões totalmente legais e seguras):</label>
 <br>
-		<input type="email" name="email" placeholder="email (pra spam)">
-<br><br>
+			<input type="email" name="email" placeholder="email (pra spam)">
+		</fieldset>
+<br>
 		<fieldset>
 			<legend>agora me diz, é bonito ser feio?</legend>
-			<input type="radio" name="feio" value="sim" checked>sim
+			<input type="radio" name="feio" value="sim">sim
 			<input type="radio" name="feio" value="não">não
 			<input type="radio" name="feio" value="talvez">mano, assim, depende tlgd
 		</fieldset>
-
 <br>
 		<fieldset>
 			<legend>quais das séries abaixo você já assistiu?</legend>
@@ -56,10 +62,11 @@
 <br>
 		<fieldset>
 			<legend>me conte sua melhor piada:</legend>
-			<textarea rows="4" name="piada" required></textarea>
+			<textarea rows="4" name="piada"></textarea>
 		</fieldset>
-<br>
-		<input type="submit" value="enviar">
+		<div id="button">
+			<input id="b" type="submit" value="enviar">
+		</div>
 	</form>
 </body>
 </html>

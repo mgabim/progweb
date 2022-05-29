@@ -16,6 +16,8 @@ fieldset, input[type="submit"], input[type="text"], input[type="email"], textare
 }
 input:focus, select:focus, textarea:focus {
 	background-color: #DDEBC8;
+textarea {
+	width: 99.5%;
 }
 #button {
 	text-align: center;
